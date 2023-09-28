@@ -1,0 +1,88 @@
+/* login and signup button in navbar */
+.ml-auto{
+    margin-right: 20px;
+}
+
+.custom-link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.custom-button{
+    background-color: rgb(221, 228, 228);
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+    border-radius: 40px;
+    margin-left: 5px;
+}
+/* logo */
+.logo{
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+
+/* signup form */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+h2 {
+    text-align: center;
+}
+
+/* ... previous CSS rules ... */
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btnn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 65px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 0 auto; 
+    display: block; 
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+

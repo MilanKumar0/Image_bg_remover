@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Background remover</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top" style="border: 1px solid rgba(0, 0, 0, 0.1);">
+    <a class="navbar-brand" href="index.html">
+      <img class="logo" src="mr3.png" alt="Logo"><strong>Magic remover</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a style="font-size: 20px;" class="nav-link active" aria-current="page" href="index.html">Remove Background</a>
+        </li>
+        <li class="nav-item">
+          <a style="font-size: 20px;" class="nav-link" href="contactus.html">Contact us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="ml-auto">
+        <button class="btn dark"><a class="custom-link" href="login.html">Login</a></button>
+        <button class="btn custom-button" type="button"><a class="custom-link" href="signup.html">Sign up</a></button>
+      </div>
+  </div>
+</nav>
+
+<!--main container-->
+<div class="main-container">
+  <div class="bg-container">
+      <img src="half .jpg" class="image">
+      <h1><strong> Remove Image <br> Background</strong></h1>
+      <p style="font-size: 20px;">Automatically and easily</p>
+  </div>
+  <!-- box -->
+  <div class="container">
+      <form style="margin-left: 240px; margin-bottom: 10px;">
+          <input type="file" id="file-input">
+      </form>
+      <h2>or drop the file</h2>
+      <button class="blue-button" id="upload-button" onclick="handleUpload()">Upload Image</button>
+      
+  </div>
+</div>
+
+<!-- Image Display Container -->
+<div class="image-container">
+  <img id="output-image" class="output-image">
+</div>
+
+<!-- Button Container -->
+<div class="button-container">
+  <button class="blue-button" id="download-button" onclick="downloadFile()">Download Image</button>
+</div>
+
+
+<!-- footer -->
+<footer class="bg-light text-black pt-5 pt-4 row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+  <div class="col mb-3" style="margin-left: 150px;">
+    <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+    <div class="col mb-3">
+      <h5><a href="/index.html" class="custom-link"><img class="logo" src="mr3.png" alt="Logo"><strong>Magic remover</strong></a></h5>    
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><p>In our Magic Remover tool, we remove backgrounds from images, making image editing a breeze. With user-friendly features, high-quality results, Try Magic Remover today and unlock a world of creative possibilities.</p></li> 
+      </ul>
+    </div>
+
+  </div>
+
+  
+
+  <div class="col mb-3"style="margin-left: 150px;">
+    <h5><strong>Features</strong></h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-black">Home</a></li>
+      <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-black">Remove background</a></li>
+      <li class="nav-item mb-2"><a href="contactus.html" class="nav-link p-0 text-black">Contact us</a></li>
+      <li class="nav-item mb-2"><a href="login.html" class="nav-link p-0 text-black">Login</a></li>
+      <li class="nav-item mb-2"><a href="signup.html" class="nav-link p-0 text-black">Signup</a></li>
+    </ul>
+  </div>
+
+  <div class="col mb-3" style="margin-left: 100px;">
+    <h5><strong>Contact</strong></h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><p class="nav-link p-0 text-black">milankumar42242@gmail.com</p></li>
+      <li class="nav-item mb-2"><p class="nav-link p-0 text-black">7970980048</p></li>
+    </ul>
+  </div>
+</footer>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

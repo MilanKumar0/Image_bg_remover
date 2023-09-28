@@ -1,0 +1,70 @@
+/* login and signup button in navbar */
+.ml-auto{
+    margin-right: 20px;
+}
+
+.custom-link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.custom-button{
+    background-color: rgb(221, 228, 228);
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+    border-radius: 40px;
+    margin-left: 5px;
+}
+/* logo */
+.logo{
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+/* login form */
+
+
+.login-container {
+    background-color:white;
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

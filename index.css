@@ -1,0 +1,139 @@
+.ml-auto{
+    margin-right: 20px;
+}
+.custom-button{
+    background-color: rgb(221, 228, 228);
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+    border-radius: 40px;
+    margin-left: 5px;
+}
+.custom-link{
+    text-decoration: none;
+    color: black;
+    
+}
+.bg-container{
+    margin-left: 400px;
+    font-size: 35px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+    box-shadow: 10px 12px 15px rgba(196, 191, 191, 0.2);
+}
+/* logo */
+.logo{
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.logo:hover{
+    background-color:black;
+    transition: background-color 0.3s ease; 
+}
+
+
+
+/* Add CSS for the main container */
+.main-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin-top: 80px;
+    
+  }
+
+/* Define styles for the container */
+.container {
+    width: 300px; 
+    height: 300px;
+    margin: 0 auto; 
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: white; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 10px 15px rgba(216, 213, 213, 0.1); 
+    border-radius: 20px;
+}
+
+/* Style for the blue button */
+.blue-button {
+    background-color: #007bff; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 20px;
+    cursor: pointer; 
+    margin-bottom: 20px; 
+}
+
+.blue-button:hover {
+    background-color: blue;
+}
+
+/* navbar css */
+.navbar-nav .nav-link,
+.navbar-nav .btn {
+    margin-left: 20px;
+}
+
+/* Additional styles for smaller screens (adjust as needed) */
+@media (max-width: 768px) {
+    .bg-container {
+        margin-left: 0; 
+        font-size: 30px; 
+    }
+
+    .image {
+        width: 200px; 
+        height: 200px;
+    }
+}
+/* footer */
+.custom-link {
+    text-decoration: none;
+    color: black; 
+  }
+
+  /* output image */
+  /* Center the image display container */
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+
+.output-image {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+
+/* Center the image display container */
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+
+.output-image {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+/* Download button container */
+.button-container {
+    text-align: center; 
+    margin-top: 20px; 
+}

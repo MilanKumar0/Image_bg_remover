@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Background remover</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top" style="border: 1px solid rgba(0, 0, 0, 0.1);">  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="logo" src="mr3.png" alt="Logo"><strong>Magic remover</strong>
+    </a>    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="ml-auto">
+      <button class="btn dark"><a class="custom-link" href="login.html">Login</a></button>
+      <button class="btn custom-button" type="button"><a class="custom-link" href="signup.html">Sign up</a></button>
+    </div>
+</div>
+</nav>
+
+<!-- form -->
+<div class="container">
+  <h2>Signup</h2>
+  <form id="registration-form" action="signup.php" method="POST">
+      <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      <input class="btnn" type="submit" onclick="sub()"value="Signup">
+  </form>
+  <p id="error-message" class="error"></p>
+</div>
+
+<footer class="bg-light text-black pt-5 pt-4 row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+  <div class="col mb-3" style="margin-left: 150px;">
+    <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+    <div class="col mb-3">
+      <h5><a href="/index.html" class="custom-link"><img class="logo" src="mr3.png" alt="Logo"><strong>Magic remover</strong></a></h5>    
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><p>In our Magic Remover tool, we remove backgrounds from images, making image editing a breeze. With user-friendly features, high-quality results, Try Magic Remover today and unlock a world of creative possibilities.</p></li> 
+      </ul>
+    </div>
+
+  </div>
+
+  
+
+  <div class="col mb-3"style="margin-left: 150px;">
+    <h5><strong>Features</strong></h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-black">Home</a></li>
+      <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-black">Remove background</a></li>
+      <li class="nav-item mb-2"><a href="contactus.html" class="nav-link p-0 text-black">Contact us</a></li>
+      <li class="nav-item mb-2"><a href="login.html" class="nav-link p-0 text-black">Login</a></li>
+      <li class="nav-item mb-2"><a href="signup.html" class="nav-link p-0 text-black">Signup</a></li>
+    </ul>
+  </div>
+
+  <div class="col mb-3" style="margin-left: 100px;">
+    <h5><strong>Contact</strong></h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><p class="nav-link p-0 text-black">milankumar42242@gmail.com</p></li>
+      <li class="nav-item mb-2"><p class="nav-link p-0 text-black">7970980048</p></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="signup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>
